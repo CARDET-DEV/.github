@@ -1,0 +1,14 @@
+name: Bug report
+description: Something isn't working
+body:
+  - type: textarea
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
